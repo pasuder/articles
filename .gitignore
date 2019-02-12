@@ -1,0 +1,11 @@
+*.aux
+*.log
+*.out
+*.fmt
+
+*.synctex
+*.synctex.gz
+
+*.tex
+*.tex.ini
+*.pdf
