@@ -1,0 +1,9 @@
+set terminal pdf
+set output 'chart-01.pdf'
+
+set title "Simple 2D Plot"
+set key left box
+set samples 50
+set style data points
+
+plot [-10:10] sin(x),atan(x),cos(atan(x))
