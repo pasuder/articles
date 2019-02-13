@@ -1,0 +1,10 @@
+set terminal pdf
+set output 'chart-02.pdf'
+
+set title "Simple 3D Plot"
+
+unset arrow
+unset label
+set grid
+
+splot x**2+y**2, x**2-y**2

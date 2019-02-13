@@ -1,0 +1,18 @@
+language: bash
+
+install: sudo apt-get install -y --no-install-recommends pandoc pandoc-citeproc gnuplot texlive texlive-latex-recommended texlive-latex-extra lmodern
+
+script: bash build.sh
+
+before_deploy: bash pre-deploy.sh
+
+deploy:
+  provider: releases
+  api_key: "$GITHUB_OAUTH_TOKEN"
+  file_glob: true
+  file: build/*.pdf
+  skip_cleanup: true
+  overwrite: true
+  on:
+    tags: true
+
