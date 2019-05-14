@@ -15,7 +15,6 @@ header-includes: |
   \renewcommand{\bottomfraction}{0.85}
   \renewcommand{\textfraction}{0.15}
   \renewcommand{\floatpagefraction}{0.8}
-  \renewcommand{\textfraction}{0.1}
   \setlength{\floatsep}{5pt plus 2pt minus 2pt}
   \setlength{\textfloatsep}{5pt plus 2pt minus 2pt}
   \setlength{\intextsep}{5pt plus 2pt minus 2pt}
@@ -25,11 +24,9 @@ abstract: |
   \lipsum[1]
 ---
 
-
 # Keywords
 
 lorem ipsum, example article
-
 
 # Introduction
 
@@ -41,16 +38,13 @@ Blah blah blah drawing \ref{chart-01} z [@gnuplotd98:online]. \lipsum[2]
 
 Blah blah blah [@ZoteroSt55:online]. \lipsum[4]
 
-
 # Issue
 
 Blah blah blah [@lamport1994latex]. \lipsum[5]
 
-
 # Solution
 
 \lipsum[6]
-
 
 # Details
 
@@ -70,16 +64,13 @@ Blah blah blah [@Bibliogr22:online]. \lipsum[8]
 
 \lipsum[13-14]
 
-
 # Conclusion
 
 \lipsum[15]
 
-
 # Acknowledgments
 
 Blah blah blah [@BibTeXen11:online]. \lipsum[16]
-
 
 # References
 

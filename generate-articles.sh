@@ -23,7 +23,7 @@ do
             --bibliography="${BASE_NAME}.${BIB_EXT}" \
             -s "${BASE_NAME}.${IN_EXT}" \
             -o "${BASE_NAME}.${OUT_EXT}"
-        echo "Generated article PDF in ${ARTICLE_DIR_PATH}"
+        echo "Generated article.${OUT_EXT} in ${ARTICLE_DIR_PATH}"
     popd >> /dev/null 2>&1
 done
 

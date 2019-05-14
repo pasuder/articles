@@ -1,8 +1,12 @@
 language: bash
 
-install: sudo apt-get install -y --no-install-recommends pandoc pandoc-citeproc gnuplot texlive texlive-latex-recommended texlive-latex-extra lmodern
+install:
+  - sudo apt-get install -y --no-install-recommends pandoc pandoc-citeproc gnuplot texlive texlive-latex-recommended texlive-latex-extra lmodern
+  - gem install mdl
 
-script: bash build.sh
+script:
+  - bash check.sh
+  - bash build.sh
 
 before_deploy: bash pre-deploy.sh
 
