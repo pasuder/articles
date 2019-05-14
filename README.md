@@ -13,7 +13,7 @@ mkdir your-article-title
 touch your-article-title/article.{md,bibtex}
 ```
 
-Edit `your-article-title/article.md` like [`example-artitcle/article.md`](example-artitcle/article.md).
+Edit `your-article-title/article.md` like [`example-article/article.md`](example-article/article.md).
 
 If needed, add BiBTex entries to `your-article-title/article.bibtex`.
 
