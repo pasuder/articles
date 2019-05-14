@@ -8,6 +8,14 @@ Some of articles might be written in Polish.
 
 # Usage
 
+Before you start, ensure that you have installed software. For Debian based Linux distributions, you can execute following command:
+
+```bash
+sudo apt-get install -y --no-install-recommends pandoc pandoc-citeproc gnuplot texlive texlive-latex-recommended texlive-latex-extra lmodern
+```
+
+Next, start your own article:
+
 ```bash
 mkdir your-article-title
 touch your-article-title/article.{md,bibtex}
