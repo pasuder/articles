@@ -15,7 +15,6 @@ header-includes: |
   \renewcommand{\bottomfraction}{0.85}
   \renewcommand{\textfraction}{0.15}
   \renewcommand{\floatpagefraction}{0.8}
-  \renewcommand{\textfraction}{0.1}
   \setlength{\floatsep}{5pt plus 2pt minus 2pt}
   \setlength{\textfloatsep}{5pt plus 2pt minus 2pt}
   \setlength{\intextsep}{5pt plus 2pt minus 2pt}
